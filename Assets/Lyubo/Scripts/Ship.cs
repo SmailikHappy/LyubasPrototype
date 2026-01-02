@@ -11,7 +11,8 @@ public class Ship : MonoBehaviour
 
         if (other_collider.transform.TryGetComponent<WeaponScript>(out WeaponScript weapon))
         {
-            Destroy(weapon.gameObject);
+            if (weapon.IsBroken) return;
+            weapon.Break();
             Destroy(this.gameObject);
         }
 

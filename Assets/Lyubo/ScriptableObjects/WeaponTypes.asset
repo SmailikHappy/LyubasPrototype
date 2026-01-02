@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e218879d7da9aa47810a3a17dd1fff1, type: 3}
+  m_Name: WeaponTypes
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponTypes
+  m_swordPrefab: {fileID: 5061254641489440355, guid: 59050fbaff99a0a4383b29fc7bacbd03, type: 3}
+  m_axePrefab: {fileID: 5805351146264247140, guid: dfd8680eb49488849ad6305c3a215f4f, type: 3}
